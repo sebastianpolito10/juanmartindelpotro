@@ -1,0 +1,40 @@
+.selector-for-some-widget{
+  box-sizing: content-box;
+}
+
+.header{ 
+background-color: #11f0e8;
+}
+
+.header2{ 
+background-color: #069291;
+}
+
+.slider{ 
+/*height: 350px;
+background: linear-gradient(-110deg,#93859c, #5c6187, #636c8d);*/
+max-width: 1400px;
+}
+
+.navbar .nav-item:hover{background-color: white; transition: 1s}
+
+@media (min-width: 0px) and (max-width: 800px) { 
+footer{ 
+text-align: center;
+}
+
+
+
+
+
+
+
+{ }
+
+{ 
+
+}
+
+[ ]
+
+< >
