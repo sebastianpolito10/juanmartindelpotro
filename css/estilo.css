@@ -10,6 +10,18 @@ background-color: #11f0e8;
 background-color: #069291;
 }
 
+.container2{
+background-color: #95d3e8;
+}
+
+.delpo{ 
+background: #2dbeed;
+}
+
+.delpo1{ 
+background: #7fd4f0;
+}
+
 .slider{ 
 /*height: 350px;
 background: linear-gradient(-110deg,#93859c, #5c6187, #636c8d);*/
@@ -18,23 +30,78 @@ max-width: 1400px;
 
 .navbar .nav-item:hover{background-color: white; transition: 1s}
 
+.text-justify {
+text-align: justify;
+}
+
+a{ 
+text-decoration: none;
+}
+
+.header2 a:hover{background-color: #41c7f2; transition: 1s; padding: 0.2em;}
+
+.contacto{ 
+background: #2dbeed;
+color: #000;
+}
+
+.casilleros{ 
+background-color: #ffff8f;
+}
+
+.container3 a:hover{background-color: #41c7f2; transition: 1s; padding: 0.4em; transition-property: 2s;}
+
+.noti{
+ animation-name: fotoani;
+ animation-duration: 3s;
+ animation-delay: 0s;
+}
+
+img.noti{ 
+width: 100%;
+transition: 0.5s;
+}
+
+img.noti:hover{ 
+transform: scale(110%);
+}
+
+.notis{
+ animation-name: fotoan;
+ animation-duration: 3s;
+ animation-delay: 0s;
+}
+
+img.notis{ 
+width: 100%;
+transition: 0.5s;
+}
+
+img.notis:hover{ 
+transform: scale(110%);
+}
+
+footer {background-color: #4ab1d4;}
+
 @media (min-width: 0px) and (max-width: 800px) { 
+
+.slider1{
+display: none;
+}
+
 footer{ 
 text-align: center;
 }
 
-
-
-
-
-
-
-{ }
-
-{ 
-
 }
 
-[ ]
 
-< >
+@keyframes fotoani{
+    0%{
+        transform: translateX(-250px);
+    }
+        
+    100%{
+        transform: translateX(0px);
+    }  
+

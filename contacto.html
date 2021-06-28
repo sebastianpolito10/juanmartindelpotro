@@ -19,7 +19,7 @@
     <div class="container">
 
         <div class="logo">
-          <h1 class="m-0 text-white">JM</h1>
+          <h1 class="text-white">JUAN MARTÍN DEL POTRO</h1>
         </div>
       </div>
 
@@ -54,53 +54,44 @@
 </header>
 </div>
 
-   	<div class="header2 container-fluid p-5">
+   	<div class="header2 container-fluid p-4">
 
-   		<div class="texto text-white p-3"><h2>¿Querés participar en un sorteo por una camiseta firmada de Del Potro?</h2></div>
+   		<div class="texto text-white p-3 text-center"><h2>¿Querés participar en un sorteo por un kit de Del Potro?</h2></div>
 
-   		<div class="texto1 p-2"><h5>¡Llena los casilleros del formulario así estás participando!</h5></div>
+      <h5 class="text-white p-2 text-center">El kit de Juan Martín del Potro cuenta con una remera, un pantalón, una raqueta y su bolso personalizado.</h5>
 
-   		<div class="texto2 p-2"><h6>En breve anunciaremos al ganador, que recibirá nuestro contacto para coordinar el envío.</h6></div>
+      <h5 class="text-white p-2 text-center">En breve anunciaremos al ganador, el cual recibirá nuestro contacto para coordinar el envío.</h5>
 
     </div> 
 
-    <section id="contacto" class="container-fluid my-5">
+    <section id="contacto" class="container-fluid my-3 contacto p-3">
 
     	<div class="container">
     		<div class="text p-4"><h3>Rellená todos los casilleros</h3></div>
+
     			<form class="row g-3" method="post" netlify>
 
-    				<div class="col-12">
+    				<div class="col-12 casilleros p-2">
     				<label for="inputAddress2" class="form-label">Nombre</label>
     				<input name="Nombre" type="text" class="form-control" id="inputAddress2" required>
   					</div>
 
-  					<div class="col-md-6">
+  					<div class="col-md-6 casilleros p-2">
     				<label for="inputEmail4" class="form-label">Mail</label>
-   					<input name="email" type="email" class="form-control" id="inputEmail4">
+   					<input name="email" type="email" class="form-control" id="inputEmail4" required>
   					</div>
 
-  					<div class="col-md-6">
+  					<div class="col-md-6 casilleros p-2">
     				<label for="inputPassword4" class="form-label">Contraseña</label>
-    				<input name="password" type="password" class="form-control" id="inputPassword4">
+    				<input name="password" type="password" class="form-control" id="inputPassword4" required>
  					</div>
 
- 	 				<div class="col-12">
-   					<label for="inputAddress" class="form-label">Dirección</label>
-    				<input name="Dirección" type="text" class="form-control" id="inputAddress" placeholder="Mario Bravo 1050">
- 					</div>
-
-  					<div class="col-12">
+  					<div class="col-md-8 casilleros p-2">
     				<label for="inputAddress2" class="form-label">Ciudad</label>
-    				<input name="Ciudad" type="text" class="form-control" id="inputAddress2" placeholder="Ciudad de Buenos Aires">
+    				<input name="Ciudad" type="text" class="form-control" id="inputAddress2" placeholder="Ciudad de Buenos Aires" required>
   					</div>
 
-  					<div class="col-md-6">
-   	 				<label for="inputCity" class="form-label">Provincia</label>
-    				<input name="Provincia" type="text" class="form-control" id="inputCity" placeholder="Buenos Aires">
-  					</div>
-
-  					<div class="col-md-4">
+  					<div class="col-md-4 casilleros p-2">
     				<label for="inputState" class="form-label">País</label>
     				<select id="inputState" class="form-select">
       				<option selected>Opciones</option>
@@ -122,16 +113,11 @@
     				</select>
   					</div>
 
- 	 				<div class="col-md-2">
-    				<label for="inputZip" class="form-label">Código postal</label>
-    				<input name="Código postal" type="text" class="form-control" id="inputZip">
-  					</div>
-
   					<div class="col-12">
     				<div class="form-check">
       				<input class="form-check-input" type="checkbox" id="gridCheck">
       				<label class="form-check-label" for="gridCheck">
-        			*Los países que no aparecen en la lista no pueden participar del sorteo.
+        			<div class="text-white">*Los países que no aparecen en la lista no pueden participar del sorteo.</div>
       				</label>
     				</div>
   					</div>
@@ -140,14 +126,14 @@
     				<div class="form-check">
       				<input class="form-check-input" type="checkbox" id="gridCheck">
       				<label class="form-check-label" for="gridCheck">
-        			Acepto los <a href="tym.html">términos y condiciones.</a>
+        			<div class="text-white">Acepto los <a href="tym.html" class="text-white">términos y condiciones.</a></div>
       				</label>
     				</div>
   					</div>
 
             <div class="col-12">
             <div class="form-check">
-              <a class="text-decoration-none" href="error.html">Sorteos pasados.</a>
+              <a class="text-decoration-none text-white" href="error.html">Sorteos pasados.</a>
             </div>
             </div>
 
@@ -161,7 +147,7 @@
 	</section>
 
 <footer class="full-footer">
-  <div class="container p-5 bg-dark">
+  <div class="container p-5">
     <div class="row">
       <div class="col-lg-5 col-md-5 col-sm-12 p-3">
 
