@@ -41,7 +41,6 @@ color: black;
 }
 
 .imagenes-biografia{
-width: 100%;
 transition: 0.8s;
 }
 
@@ -55,6 +54,11 @@ text-align: justify;
 
 a{ 
 text-decoration: none;
+}
+
+.img-fluid figure{ 
+max-width: 100%;
+max-height: 100%;
 }
 
 .header2 a:hover{
