@@ -134,4 +134,20 @@ display: none;
 .nube{ 
 display: none;
 }
+
+.boton{
+font-size: 30px;
+position: absolute;
+top: 60%;
+left: 40%;
+font-weight: bold;
+background-color: #08a6c9;
+width: 25%;
+padding: 1%;
+border: 5%;
+text-align: center;
+transform: scale(1.15);
+transition: 1.5s;
+}
+
 }	

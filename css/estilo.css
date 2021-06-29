@@ -10,6 +10,10 @@ background-color: #11f0e8;
 background-color: #069291;
 }
 
+.header3{ 
+background-color: #fff;
+}
+
 .container2{
 background-color: #95d3e8;
 }
@@ -46,10 +50,10 @@ color: #000;
 }
 
 .casilleros{ 
-background-color: #ffff8f;
+background-color: #fff;
 }
 
-.container3 a:hover{background-color: #41c7f2; transition: 1s; padding: 0.4em; transition-property: 2s;}
+.container a:hover{background-color: #41c7f2; transition: 1s; padding: 0.4em;}
 
 .noti{
  animation-name: fotoani;
