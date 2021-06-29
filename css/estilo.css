@@ -52,6 +52,14 @@ transform: scale(105%);
 text-align: justify;
 }
 
+.imagenes-torneo{
+transition: 0.8s;
+}
+
+.imagenes-torneo:hover{
+transform: scale(105%);
+}
+
 a{ 
 text-decoration: none;
 }
@@ -101,7 +109,7 @@ transform: scale(110%);
 
 img.notis{ 
 width: 100%;
-transition: 0.5s;
+transition: 0.8s;
 }
 
 img.notis:hover{ 
