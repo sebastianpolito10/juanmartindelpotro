@@ -125,10 +125,22 @@ text-align: center;
 
 @keyframes fotoani{
     0%{
-        transform: translateX(-250px);
+        transform: translateX(-500px);
     }
         
     100%{
         transform: translateX(0px);
     }  
 
+}
+
+@keyframes fotoan{
+    0%{
+        transform: translateX(500px);
+    }
+        
+    100%{
+        transform: translateX(0px);
+    }  
+
+}    
